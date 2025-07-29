@@ -5,6 +5,11 @@ local set = vim.opt
 set.relativenumber = true
 set.number = true
 
+set.splitbelow = true
+set.splitright = true
+
+set.wrap = false
+
 -- indentation and tabs
 set.tabstop = 2
 set.shiftwidth = 2
@@ -33,4 +38,10 @@ set.incsearch = true
 
 -- faster cursor hold
 set.updatetime = 50
+
+set.clipboard = "unnamedplus"
+
+set.virtualedit = "block"
+set.inccommand = "split"
+set.ignorecase = true
 
